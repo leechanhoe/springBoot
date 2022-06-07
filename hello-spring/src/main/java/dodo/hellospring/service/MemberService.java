@@ -3,13 +3,17 @@ package dodo.hellospring.service;
 import dodo.hellospring.domain.Member;
 import dodo.hellospring.repository.MemberRepository;
 import dodo.hellospring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+//@Service // 이러면 스프링이 컨테이너에 등록 #이게 컴포넌트 스캔 방식, Component라고 해도됨
 public class MemberService {
     private final MemberRepository memberRepository;
 
+    //@Autowired // memorymemberrepo를 주입해줌
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
