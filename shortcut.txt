@@ -3,3 +3,4 @@ get set 생성 alt + insert
 ctr + alt + v 리턴값에 따라 객체만들어줌
 ctr + alt + Shift + t    refactor - 따로떼서 함수같은것으로 만들어줌
 alt + enter    static으로 넘김
+ctr + e    최근 조회 파일목록
