@@ -1,6 +1,7 @@
 package dodo.hellospring;
 
 import dodo.hellospring.repository.JdbcMemberRepository;
+import dodo.hellospring.repository.JdbcTemplateMemberRepository;
 import dodo.hellospring.repository.MemberRepository;
 import dodo.hellospring.repository.MemoryMemberRepository;
 import dodo.hellospring.service.MemberService;
@@ -28,6 +29,8 @@ public class SpringConfig {
 
     @Bean
     public MemberRepository memberRepository() {
-        return new JdbcMemberRepository(dataSource);
+//        return new MemoryMemberRepository();
+//        return new JdbcMemberRepository(dataSource);
+        return new JdbcTemplateMemberRepository(dataSource);
     }
 }
