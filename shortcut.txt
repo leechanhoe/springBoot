@@ -6,3 +6,4 @@ alt + enter    static으로 넘김
 ctr + e    최근 조회 파일목록
 alt를 option이라고도함
 ctr + alt + <-   이전 동작으로 가기
+ctr + alt + N     a = b(a);    return a; 이걸 인라인으로 합쳐줌
