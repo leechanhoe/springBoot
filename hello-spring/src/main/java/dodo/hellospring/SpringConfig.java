@@ -1,5 +1,6 @@
 package dodo.hellospring;
 
+import dodo.hellospring.aop.TimeTraceAop;
 import dodo.hellospring.repository.*;
 import dodo.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,11 @@ public class SpringConfig {
     public MemberService memberService() {
         return new MemberService(memberRepository);
     }
+
+//    @Bean
+//    public TimeTraceAop timeTraceAop() {
+//        return new TimeTraceAop();
+//    }
 }
 
 //    @Bean
