@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-@SpringBootTest
+@SpringBootTest //스프링 컨테이너와 테스트를 함께 실행한다(설정 파일 등 참고하여 런타임 의존성, DB연결 등 모두 사용)
 @Transactional // 테스트가 끝나면 롤백해줌 (다음 테스트를 위해 데이터 초기화해줌)
 class MemberServiceIntegrationTest {
 

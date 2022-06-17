@@ -1,7 +1,6 @@
 package dodo.hellospring.repository;
 
 import dodo.hellospring.domain.Member;
-import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
@@ -37,5 +36,4 @@ public class MemoryMemberRepository implements MemberRepository{
     public void clearStore() {
         store.clear();
     }
-
 }

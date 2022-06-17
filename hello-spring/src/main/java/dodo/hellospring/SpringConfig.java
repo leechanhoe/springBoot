@@ -17,7 +17,7 @@ public class SpringConfig {
         this.memberRepository = memberRepository;
     }
 
-//    EntityManager em;
+//    EntityManager em; // JPA 엔티티매니저 설정
 //    @Autowired
 //    public SpringConfig(EntityManager em){
 //        this.em = em;

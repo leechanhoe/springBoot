@@ -21,7 +21,7 @@ public class MemberController {
 //        this.memberService = memberService;
 //    }
 
-    @Autowired // 스프링 컨테이너에서 멤버서비스를 가져와서 연결
+    @Autowired // 스프링 컨테이너에서 멤버서비스를 가져와서 연결  // 생성자 방식
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
     }

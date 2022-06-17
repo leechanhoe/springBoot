@@ -22,7 +22,7 @@ public class HelloController {
     }
 
     @GetMapping("hello-string")
-    @ResponseBody // http 에 헤더부 바디부가 있는데 응답 바디부에 내용을 직접 넣어주겠다는 뜻
+    @ResponseBody // API 방식 - http 에 헤더부 바디부가 있는데 응답 바디부에 내용을 직접 넣어주겠다는 뜻
     public String helloString(@RequestParam("name") String name){
         return "hello " + name; // 얘는 화면이 view 를 안거치고 그대로 감
     }
