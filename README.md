@@ -404,31 +404,28 @@ public class TimeTraceAop { // 중간에 인터셉트해서 컨트롤 할 수 �
 
 AOP는 내부적으로 프록시가 사용된다.
 ![](https://velog.velcdn.com/images/dodo4723/post/afdf5d11-2243-488a-84cc-7634beb0508e/image.png)
+
 <br/>
 <br/>
 
 ## 7. 결과물
 
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/a2020124-ea40-45fa-bcc1-036bdb97430b/image.png
-"/>
-  첫 화면에서 회원 가입을 누르고
-</p>
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/98cd65f2-fd72-4ce1-ae6d-39dc71b56873/image.png
-"/>
-  이름을 등록하면
-</p>
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/89b55a2d-7cef-4177-aeb7-25870f94959f/image.png
-"/>
-  회원 목록에 적용되고.
-</p>
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/1fc63ebc-816d-4018-9e05-5a8ef060d37d/image.png
-"/>
-  데이터베이스에도 적용이 잘 된다.
-</p>
+![image](https://user-images.githubusercontent.com/54972898/229271384-2016a4cf-21f3-48d4-9557-56f71d5fa6a6.png)
+ 
+첫 화면에서 회원 가입을 누르고
+
+![image](https://user-images.githubusercontent.com/54972898/229271393-ce4f86e1-029e-4056-af80-60472d4befa3.png)
+
+이름을 등록하면
+
+![image](https://user-images.githubusercontent.com/54972898/229271402-9e90788b-05ca-4fe0-a1b5-96072fa57e7c.png)
+
+회원 목록에 적용되고.
+  
+![image](https://user-images.githubusercontent.com/54972898/229271406-44da0c3a-8551-4195-8f96-ac9f5f4afca8.png)
+
+데이터베이스에도 적용이 잘 된다.
+
 <br/>
 <br/>
 
